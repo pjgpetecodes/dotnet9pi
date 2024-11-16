@@ -1,12 +1,15 @@
 #!/bin/bash
 
+
+dotnetver=9.0
+
 echo -e "\e[1m----------------------------------------"
-echo -e "\e[1m          .NET Installer"
+echo -e "\e[1m          .NET $dotnetver Installer"
 echo -e "\e[1m----------------------------------------"
 echo ""
 echo -e "\e[1mPete Codes / PJG Creations 2024"
 echo ""
-echo -e "Latest update 02/01/2024"
+echo -e "Latest update 16/11/2024"
 echo ""
 
 echo -e "\e[0m"
@@ -24,7 +27,6 @@ echo -e "\e[1m     Fetching Latest .NET Versions"
 echo -e "\e[1m----------------------------------------"
 echo -e "\e[0m"
 
-dotnetver=8.0
 
 #
 # We can add this back in when this release becomes recommended
@@ -195,7 +197,7 @@ echo -e "\e[0m"
 
 cd ~
 
-wget -O /home/$username/dotnetdebug.sh https://raw.githubusercontent.com/pjgpetecodes/dotnet8pi/main/dotnetdebug.sh
+wget -O /home/$username/dotnetdebug.sh https://raw.githubusercontent.com/pjgpetecodes/dotnet9pi/main/dotnetdebug.sh
 chmod +x /home/$username/dotnetdebug.sh 
 
 echo -e "\e[0m"
@@ -214,7 +216,7 @@ echo -e "\e[1mNote: It's highly recommended that you perform a reboot at this po
 echo ""
 echo -e "\e[0mGo ahead and run \e[1mdotnet new console \e[0min a new directory!"
 echo ""
-echo -e "\e[0mRead the getting started blob here: https://bit.ly/dotnet8pi"
+echo -e "\e[0mRead the getting started blob here: https://bit.ly/dotnet9pi"
 echo ""
 echo -e "\e[0mLet me know how you get on by tweeting me at \e[1;5m@pete_codes\e[0m"
 echo ""
